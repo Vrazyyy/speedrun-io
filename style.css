@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #efef3f;
+  color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  just-content: center;
+}
+
+game-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#game-canva {
+  background-color: #fff;
+  border: 3px solid #333;
+  width: 100%;
+  height: 70%;
+}
+
+#hint {
+  margin-top: 10px;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #333, #5eb8eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+timer {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+mobile-controls {
+  position: fixed;
+  bottom: 10px;
+  left: 0, right: 0;
+  width: 100%;
+  display: flex;
+  just-content: center;
+}
+
+mobile-controls button {
+  font-size: 10px;
+  padding: 5px 10px;
+}
